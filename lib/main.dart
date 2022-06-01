@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-          child: Image.asset('assets/logos/logo_shamo.png'),
+          child: Text(
+            'Hello Flutter',
+            style: GoogleFonts.poppins(
+              fontSize: 50
+            ),
+          ),
         ),
     );
   }
