@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/screens/main/home_screen.dart';
+import 'package:shamo/screens/main/overlay_screen.dart';
 import 'package:shamo/screens/sign_up_screen.dart';
 import 'package:shamo/screens/splash_screen.dart';
 import 'package:shamo/screens/sign_in_screen.dart';
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => SplashScreen(),
         '/sign-in': (context) => SignInScreen(),
         '/sign-up': (context) => SignUpScreen(),
-        '/home': (context) => HomeScreen(),
+        '/home': (context) => OverlayScreen(),
       },
     );
   }
