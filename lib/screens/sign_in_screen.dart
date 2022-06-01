@@ -160,7 +160,9 @@ class SignInScreen extends StatelessWidget {
               fontWeight: medium
             ),
           ),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pushNamed(context, '/home');
+          },
         ),
       );
     }
