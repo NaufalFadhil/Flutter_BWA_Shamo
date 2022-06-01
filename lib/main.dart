@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:shamo/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
@@ -25,8 +25,9 @@ class HomePage extends StatelessWidget {
         body: Center(
           child: Text(
             'Hello Flutter',
-            style: GoogleFonts.poppins(
-              fontSize: 50
+            style: priceTextStyle.copyWith(
+              fontSize: 50,
+              fontWeight: semiBold,
             ),
           ),
         ),
