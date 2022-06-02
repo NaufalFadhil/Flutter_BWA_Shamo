@@ -5,6 +5,8 @@ double defaultMargin = 30.0;
 
 Color primaryColor = const Color(0xff6C5ECF);
 Color secondaryColor = const Color(0xff38ABBE);
+Color tertiaryColor = const Color(0xff504F5E);
+Color transparantColor = Colors.transparent;
 
 Color alertColor = const Color(0xff38ABBE);
 Color blueColor = const Color(0xff2C96F1);
